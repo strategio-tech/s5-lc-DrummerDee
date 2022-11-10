@@ -10,10 +10,9 @@ public class LoanCalculator {
 
     static int getRemainingAmountIn3Months(int amount) {
         int months = 3;
-        for(int x = 0; x < months; x++)
+        for(int x = 0; x < months; x++){
             amount = amount * 90/100;
-        System.out.println(amount);
-
+        }
         return amount;
     }
 
